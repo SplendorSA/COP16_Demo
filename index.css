@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  position: relative;
+
+  background-image: url('FONDO.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.audio-container {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  
+  z-index: 1;
+}
+
+.imagen-reducida {
+  max-width: 600px;
+  display: block;
+  position: relative;
+  border-radius:20px;
+  z-index: -1;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+
+  body {
+    background-size: 100vw 120vh; /* establece el tamaño de la imagen de fondo */
+  }
+
+  .audio-container {
+    margin-top: 5%;
+  }
+
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+
+  body {
+    background-size: 100vw 100vh; /* establece el tamaño de la imagen de fondo */
+  }
+
+  .audio-container {
+    margin-top: 5vh;
+  }
+
+  .imagen-reducida {
+    max-width: 500px;
+  }
+}
