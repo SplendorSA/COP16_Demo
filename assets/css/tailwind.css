@@ -1573,6 +1573,9 @@ video {
 .w-screen{
   width: 100vw !important;
 }
+.w-36{
+  width: 9rem !important;
+}
 .min-w-\[120px\]{
   min-width: 120px !important;
 }
