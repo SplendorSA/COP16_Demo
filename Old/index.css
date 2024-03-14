@@ -1,0 +1,175 @@
+body {
+  height: 100%;
+  position: relative;
+
+  background-image: url('FONDO.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .logo-container {
+  position: relative;
+  margin-left: 50vh;
+  margin-top: 10%;
+  transform: translateX(-35%);
+  padding: 10px;
+  
+  z-index: 1;
+} */
+
+.logo-container-agenda {
+  position:relative;
+  margin-left: 55%;
+  transform: translateX(-38%);
+  padding: 10px;
+
+  z-index: 1;
+
+}
+
+.imagen-reducida-logo-agenda{
+  max-width: 50%;
+}
+
+.imagen-reducida {
+  max-width: 400px;
+  display: block;
+  position: relative;
+  border-radius:20px;
+  z-index: -1;
+}
+
+.imagen-reducida-agenda {
+  width:900px;
+  max-width: 100%;
+}
+
+.imagen-reducida-Button {
+  max-width: 200px;
+  /* display: block; */
+  /* position: relative; */
+  border-radius:20px;
+  z-index: -1;
+}
+
+.container-agenda{
+  text-align: center;
+}
+
+.button-container{
+  margin-top: 10px;
+
+  transform: translateX(-35%);
+  margin-left: 45.5%;
+}
+
+.button-container-alone{
+  margin-top: 10px;
+
+  transform: translateX(-50%);
+  margin-left: 58.5%;
+}
+
+.Button-CSS{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+
+  body {
+    background-size: 100vw 100vh; /* establece el tamaño de la imagen de fondo */
+  }
+
+  .logo-container {
+    position:relative;
+
+    margin-top: 8vh;
+    margin-left: 52%;
+    transform: translateX(-35%);
+    padding: 10px;
+
+    z-index: 1;
+  }
+
+  .imagen-reducida {
+    max-width: 100%;
+  }
+
+  .button-container{
+    margin-top: 10px;
+    transform: translateX(-35%);
+    margin-left: 46%;
+  }
+  
+  .button-container-alone{
+    margin-top: 10px;
+
+    transform: translateX(-50%);
+    margin-left: 58.5%;
+  }
+
+
+  .logo-container-agenda {
+    text-align:center;
+    position:relative;
+    /* margin-left: 52%; */
+    /* transform: translateX(-38%); */
+    padding: 10px;
+  
+    z-index: 1;
+  
+  }
+
+  .imagen-reducida-agenda {
+    width:900px;
+    max-width: 100%;
+  }
+
+  .imagen-reducida-logo-agenda{
+    max-width: 500px;
+  }
+
+  .container-agenda{
+   margin-top: 20%;
+  }
+
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+  
+  body {
+    background-size: 100vw 100vh; /* establece el tamaño de la imagen de fondo */
+  }
+  
+  .logo-container {
+    position:relative;
+
+    margin-top: 3vh;
+    margin-left: 54%;
+    transform: translateX(-38%);
+    padding: 10px;
+  
+    z-index: 1;
+
+  }
+
+  .imagen-reducida {
+    max-width: 50%;
+  }
+
+  .button-container{
+    transform: translateX(-38%);
+    margin-left: 46%;
+    margin-top: 10px;
+
+  }
+  
+  .button-container-alone{
+    transform: translateX(-38%);
+    margin-top: 10px;
+    margin-left: 54%;
+    
+  }
+
+}
