@@ -684,6 +684,9 @@ video {
 .mb-4{
   margin-bottom: 1rem !important;
 }
+.mb-\[2\.5rem\]{
+  margin-bottom: 2.5rem !important;
+}
 .ml-5{
   margin-left: 1.25rem !important;
 }
@@ -778,8 +781,8 @@ video {
 .w-9{
   width: 2.25rem !important;
 }
-.w-\[23rem\]{
-  width: 23rem !important;
+.w-\[17rem\]{
+  width: 17rem !important;
 }
 .w-auto{
   width: auto !important;
